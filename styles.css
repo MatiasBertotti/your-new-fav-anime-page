@@ -32,10 +32,6 @@ li, a {
    color: white;
    font-weight: 900;
 }
-.logo {
-   font-size: 48px;
-   font-weight: 900;
-}
 
 .top {
    display: flex;
@@ -53,15 +49,90 @@ button {
    border-radius: 8px;
    padding: 8px 12px;
    width: fit-content;
-   background-color:  #ff5a36;
-   border-color: #cd5c5c;
+   background-color: white;
+   font-size: 15px;
+   font-weight: 800;
+   color: #ffc0cb;
 }
 
-.info {
+.infotop {
    padding: 30px 0;
 }
 
 .tittletop {
    font-size: 25px;
    font-weight: 800;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-content: center; 
+}
+
+.tittlecontainer {
+   color: #1f2937;
+   font-weight: 800;
+   font-size: 25px;
+   text-align: center;
+   margin: 28px;
+}
+
+.info {
+   display: flex;
+   flex-direction: column;
+   max-width: 200px;
+   margin: 0 30px;
+}
+
+.text {
+   color: #1f2937;
+   text-align: center;
+}
+
+.images {
+   border: 5px solid #ffc0cb;
+   border-radius: 25px;
+   max-width: auto;
+   max-height: 200px;
+}
+
+.quote {
+   background-color: #ffe4e1;
+   padding: 50px 50px;
+   margin: 90px 0;
+   text-align: center;
+}
+
+p {
+   margin-top: -60px;
+   font-size: 30px;
+   margin-bottom: 10px;
+}
+
+.contact {
+   background-color: #ffc0cb;
+   padding: 30px 80px;
+   margin: 90px 150px;
+   border-radius: 25px;
+}
+
+.contact-tittle {
+   font-weight: 800;
+   font-size: 32px;
+}
+
+.contact-box {
+   display: flex;
+   justify-content: space-between;
+}
+
+i {
+   max-width: 800px;
+}
+
+.footer {
+   background-color: #ffe4e1;
+   text-align: center;
+   color: #1f2937;
 }
